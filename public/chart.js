@@ -4,7 +4,7 @@ if (!userId) {
 }
 
 async function fetchBalanceHistory() {
-    const response = await fetch(`http://localhost:5000/balance-history/${userId}`);
+    const response = await fetch(`http://localhost:8000/balance-history/${userId}`);
     const data = await response.json();
     return data.history;
 }
