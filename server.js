@@ -144,8 +144,8 @@ app.get('/', (req, res) => {
 });
 
 if (require.main === module) {
-  app.listen(5000, () => {
-    console.log('✅ Server running on PORT 5000'); 
+  app.listen(8000, () => {
+    console.log('✅ Server running on PORT 8000'); 
   });
 }
 
